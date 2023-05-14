@@ -1,0 +1,113 @@
+body{
+    background-color:#131313;
+    color:white;
+    font-family: 'poppinsregular';
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+header{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+#Logoheader {
+    width: 45px;
+}
+#tittle {
+    display: block;
+    width: 45px;
+}
+li {
+    display: inline-block;
+    margin: 20px;
+}
+h1 {
+    font-weight: 200;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+h2 {
+    font-size: 45px;
+    line-height: 2px;
+    font-family: 'poppinsmedium';
+}
+span {
+    color: white;
+}
+a{
+    color:white;
+}
+p {
+    line-height: 20px;
+    max-width: 500px;
+    font-family: 'poppinslight';
+    font-size: 15pt;
+    text-align: center;
+}
+img{
+    width: 330px;
+}
+a:hover{
+    color:gray;
+    transition: 0.5s all;
+}
+#Btn-Conta{
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 15px;
+}
+#Btn-Conta:hover{
+    background-color:gray;
+    color: white;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-self: auto;
+    margin-left: 45px;
+}
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+#Submit-btn{
+    height: 50px;
+    width: 50%;
+    background-color:#202020;
+    color:white;
+    font-weight: bold;
+    font-family: 'poppinslight';
+}
+#Submit-btn:hover{
+    background-color:darkgrey;
+    cursor: pointer;
+}
+article{
+     margin-left: 270px;
+}
+aside {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 50px;
+    text-align: center;
+    padding: 15px;
+    
+}
+#ImageLogo {
+    width: 45px;
+    display: block;
+    margin-left: 180px;
+}
